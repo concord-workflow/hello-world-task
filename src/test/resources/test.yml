@@ -1,0 +1,9 @@
+configuration:
+  dependencies:
+    - "mvn://ca.ibodrov.concord:hello-world-task:1.0-SNAPSHOT"
+
+flows:
+  default:
+    - task: helloWorld
+      in:
+        name: "User"
