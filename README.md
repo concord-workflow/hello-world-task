@@ -5,7 +5,7 @@ task. Includes an end-to-end test.
 
 ## Usage
 
-Requires Java 8.
+Requires Java 8 and Docker. Tested on Linux.
 
 ```
 $ ./mvnw clean install
